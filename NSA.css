@@ -1,0 +1,111 @@
+*
+        {
+            margin:00px;
+            padding: 00px;
+            
+        }
+        
+
+        /* this is demo project ds<trlh; */
+        /* don't edit this portion container; */
+        /* NSA student ID c a r d ; */
+
+        
+        .container
+        {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            flex-direction: row;
+
+            
+
+        }
+        
+        /* this is for background photo size & position; */
+        
+        .back
+        {
+            
+            height: 490px;
+            width:280px;
+            position: relative;
+            background-image:url('idbackgroundupdate.jpg');
+            background-size: 280px 490px;
+            background-repeat: no-repeat;
+        }
+        
+
+        /* this is for stamp image; */
+        
+        .logonsa img
+        {
+            height: 80px;
+            width:80px;
+            position: absolute;
+            top: 410px;
+            left: 174px;
+            object-fit: content;
+
+            
+        }
+
+        .tab {padding-right:30px;}
+
+         /*this is for idphoto size and position; */
+
+        .idphoto img
+        {
+            height: 80px;
+            width:70px;
+            position: absolute;
+            top: 360px;
+            left: 180px;
+            object-fit: content;
+            
+        }
+      
+        /* this is for about student facts as a text; */ 
+        
+        .year{
+            position: absolute;
+            top: -32px;
+            left: 45px;
+            color:rgb(19, 33, 110);
+            font-size: 10px;
+            font-weight: bolder;
+            font-size: 15px;
+        }
+
+
+        .etxt
+        {
+            position: absolute;
+            top: 155px;
+            text-transform:capitalize;
+            font-size: 12px;
+            text-emphasis: spacing;
+            margin-left: 10px;
+            cursor: not-allowed;
+        }
+        
+
+    
+        /* this is for end text; */
+        
+        .endstickfoot
+        {
+            position: absolute;
+            top: 490px;
+            text-transform:capitalize;
+            font-size: 5px;
+            font-weight: bold;
+            text-emphasis: spacing;
+            margin-left: 68px;
+            cursor: not-allowed;
+        }
+        
